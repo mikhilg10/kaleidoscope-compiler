@@ -1,0 +1,18 @@
+extern putchard(char);
+
+def printdensity(d)
+  if d > 8 then
+    putchard(32)
+  else if d > 4 then
+    putchard(46)
+  else if d > 2 then
+    putchard(43)
+  else
+    putchard(42);
+
+printdensity(1);
+printdensity(2);
+printdensity(3);
+printdensity(5);
+printdensity(9);
+putchard(10);
